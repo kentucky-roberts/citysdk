@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE cross-domain-policy SYSTEM "http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd">
+<cross-domain-policy>
+    <allow-access-from domain="api.census.gov" />
+    <allow-access-from domain="www.census.gov" />
+    <allow-access-from domain="www.api.census.gov" />
+    <allow-access-from domain="tigerweb.geo.census.gov" />
+    <allow-access-from domain="maps.googleapis.com" />
+    <allow-access-from domain="localhost:8888" />
+    <allow-access-from domain="localhost:80" />
+    <allow-access-from domain="localhost" />
+    <allow-access-from domain="search.ams.usda.gov" />
+    <allow-access-from domain="api.census.gov/data" />
+    <allow-access-from domain="api.eia.gov" />
+    <allow-access-from domain="10.88.11.173" />
+    <allow-access-from domain="10.88.11.173:8888" />
+    <allow-access-from domain="10.88.11.173:8080" />
+    <allow-access-from domain="api.eia.gov" />
+    <allow-access-from domain="geo.census.gov" />
+    <allow-access-from domain="tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb" />
+    <allow-access-from domain="tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Current/MapServer/84/query" />
+</cross-domain-policy>

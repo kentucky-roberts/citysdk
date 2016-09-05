@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ blank.php [QSA,L]
+Header set Access-Control-Allow-Origin "*"
